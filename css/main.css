@@ -9,7 +9,8 @@
 
 /* UTILITY */
 .container {
-    width: 70%;
+     max-width: 50%;
+     height: 50%;
     margin: 0 auto;
     
 }
@@ -45,13 +46,7 @@
 }
 
  /* HEADER */
-header {
-    
-    height: 75px;
-    
-    
-    
-}
+
 
 .logo {
     display: inline-block;
@@ -82,12 +77,23 @@ header {
 /* MAIN SECTION */
 /* SECTION 1 */
 .section-1 {
-    background-color: yellow;
-    height: 355px;
-    
-    
+    position: relative;
+    background-image: url(../img3/banner.jpg);
+    height: 355px; 
+    background-size: 100% 118%; 
+    background-repeat: no-repeat;
+    border-radius: 10px ;
     
 }
+
+.text {
+    position: absolute;
+    bottom: 33px;
+    left: 41px;
+    width: 443px;
+    font-size: 14px;
+}
+
 /* SECTION 2 + SIDEBAR */
 .sidebar,
 .main-content-2
