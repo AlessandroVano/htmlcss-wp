@@ -77,16 +77,19 @@
 /* MAIN SECTION */
 /* SECTION 1 */
 .section-1 {
-  
+  width: 50%;
  position: relative;
+
+ 
    
 }
 
-.banner {
+.banner img {
     
     width: 100%;
     display: block;
     object-fit: contain;
+    border-radius: 15px;
 }
 
 .text {
