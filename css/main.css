@@ -46,11 +46,19 @@
 
  /* HEADER */
 header {
-    background: #f03994;
+    
     height: 75px;
     
     
     
+}
+
+.logo {
+    display: inline-block;
+}
+
+.logo img {
+    width: 165px ;
 }
 
 .main-menù  li {
