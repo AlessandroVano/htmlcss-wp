@@ -77,11 +77,9 @@
 /* MAIN SECTION */
 /* SECTION 1 */
 .section-1 {
-  width: 50%;
+  width: 100%;
  position: relative;
-
  
-   
 }
 
 .banner img {
@@ -90,6 +88,12 @@
     display: block;
     object-fit: contain;
     border-radius: 15px;
+    
+}
+
+img {
+    
+   
 }
 
 .text {
