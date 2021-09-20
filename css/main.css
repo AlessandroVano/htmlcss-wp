@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 
 }
 
@@ -41,8 +42,8 @@
     padding-right: 10px;
 }
 
-.bg {
-    background: rgb(14, 82, 218);
+.color {
+    color: rgb(184, 183, 183) ;
 }
 
  /* HEADER */
@@ -66,7 +67,8 @@
 .menù li a {
     text-transform: uppercase;
     text-decoration: none;
-    color: rgb(184, 183, 183);
+    color: rgb(184, 183, 183) ;
+    
 }
  /* dare l'interazione dopo la a con HOVER */
 .menù li a:hover {
@@ -88,21 +90,20 @@
     display: block;
     object-fit: contain;
     border-radius: 15px;
-    
+    background-position: 23%;
 }
 
-img {
-    
-   
-}
 
 .text {
     position: absolute;
-    bottom: 33px;
-    left: 41px;
-    width: 443px;
+    bottom: 104px;
+    left: 54px;
+    width: 365px;
     font-size: 14px;
+    
+    color: rgb(255, 255, 255);
 }
+
 
 /* SECTION 2 + SIDEBAR */
 .sidebar,
@@ -114,8 +115,10 @@ img {
 }
 
 .main-content-1 {
-    background: skyblue;
-    height: 58px;  
+    
+    height: 58px; 
+    text-transform: uppercase; 
+    color:;
     
 }
 
