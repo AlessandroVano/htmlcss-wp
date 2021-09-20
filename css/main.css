@@ -77,13 +77,16 @@
 /* MAIN SECTION */
 /* SECTION 1 */
 .section-1 {
-    position: relative;
-    background-image: url(../img3/banner.jpg);
-    height: 355px; 
-    background-size: 100% 118%; 
-    background-repeat: no-repeat;
-    border-radius: 10px ;
+  
+ position: relative;
+   
+}
+
+.banner {
     
+    width: 100%;
+    display: block;
+    object-fit: contain;
 }
 
 .text {
