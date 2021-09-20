@@ -61,14 +61,30 @@ header {
     width: 165px ;
 }
 
+.menù li {
+    /* così mi toglie già i pallini */
+    display: inline-block;
+    margin-right: 12px;
 
+}
+
+.menù li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(184, 183, 183);
+}
+ /* dare l'interazione dopo la a con HOVER */
+.menù li a:hover {
+ color: black;
+}
 
 
 /* MAIN SECTION */
 /* SECTION 1 */
 .section-1 {
-    background: yellow;
+    background-color: yellow;
     height: 355px;
+    
     
     
 }
