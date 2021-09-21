@@ -87,9 +87,9 @@
     
     width: 100%;
     display: block;
-    object-fit: contain;
     border-radius: 15px;
-    ;
+    filter: brightness(80%);
+    
 }
 
 
@@ -125,7 +125,7 @@
 
 
 .sidebar {
-    background: skyblue;
+   
     height: 355px;
     width: 20%;
 }
@@ -138,10 +138,14 @@
 
 .banner-2 img {
     width: 100%;
-   
- 
+    filter: brightness(80%);
+    object-fit: scale-down;
+    
+    
 }
- 
+
+
+
 
 
 /* FOOTER */
